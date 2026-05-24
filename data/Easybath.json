@@ -6,13 +6,31 @@
     "verifier": "Pixelatted_",
     "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
     "percentToQualify": 56,
-    "password": "Not Copyable",
+    "password": "Copyable",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "MyakIsntMy",
+            "link": "",
             "percent": 100,
-            "hz": 360
-        }
+            "hz": 60
+        },
+         {
+            "user": "K3kaSlayer",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+          {
+            "user": "LittleGOAT915",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        },
+          {
+            "user": "LitleGodBoy",
+            "link": "",
+            "percent": 65,
+            "hz": 75
+        },
     ]
 }
