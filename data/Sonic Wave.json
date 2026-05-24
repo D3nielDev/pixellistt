@@ -2,17 +2,17 @@
     "id": 57436521,
     "name": "Sonic Wave",
     "author": "Pixelatted_",
-    "creators": ["Creator1", "Creator2", "Creator3"],
+    "creators": ["Cyclic"],
     "verifier": "Pixelatted_",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 56,
+    "verification": "https://youtu.be/3ixXeYa4YBw",
+    "percentToQualify": 100,
     "password": "Copyable",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "MyakIsntMy",
+            "link": "",
             "percent": 100,
-            "hz": 360
+            "hz": 60
         }
     ]
 }
