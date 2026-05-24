@@ -4,15 +4,45 @@
     "author": "Pixelatted_",
     "creators": ["test"],
     "verifier": "Pixelatted_",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 56,
-    "password": "Not Copyable",
+    "verification": "https://youtu.be/RGKTvJzt2eQ",
+    "percentToQualify": 100,
+    "password": "Copyable",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "K3kaSlayer",
+            "link": "",
             "percent": 100,
-            "hz": 360
-        }
+            "hz": 60
+        },
+         {
+            "user": "MyakIsntMy",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+         {
+            "user": "LitleGodBoy",
+            "link": "",
+            "percent": 100,
+            "hz": 75
+        },
+         {
+            "user": "LittleGOAT915",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        },
+         {
+            "user": "JyroGGs",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
+         {
+            "user": "TRY2121",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
     ]
 }
