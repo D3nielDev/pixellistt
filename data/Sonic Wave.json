@@ -1,12 +1,12 @@
 {
     "id": 57436521,
-    "name": "SampleLevel1",
-    "author": "LevelUploader",
+    "name": "Sonic Wave",
+    "author": "Pixelatted_",
     "creators": ["Creator1", "Creator2", "Creator3"],
-    "verifier": "Verifier",
+    "verifier": "Pixelatted_",
     "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
     "percentToQualify": 56,
-    "password": "Not Copyable",
+    "password": "Copyable",
     "records": [
         {
             "user": "Sample_Victor_1",
