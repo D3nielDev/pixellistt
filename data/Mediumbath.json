@@ -5,13 +5,19 @@
     "creators": [],
     "verifier": "Pixelatted_",
     "verification": "https://youtu.be/pLWdJxOdhyo",
-    "percentToQualify": "100",
+    "percentToQualify": "60",
     "password": "Free To Copy",
     "records": [
         {
             "user": "MyakIsntMy",
             "link": "",
             "percent": 100,
+            "hz": 60
+        },
+           {
+            "user": "K3kaSlayer",
+            "link": "",
+            "percent": 80,
             "hz": 60
         }
     ]
