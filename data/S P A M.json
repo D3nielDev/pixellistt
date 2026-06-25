@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
+         {
+            "user": "acebace19",
+            "link": "https://www.youtube.com/live/1r5qkxVWWLc?si=DnV2JSGIpsrc1r95",
+            "percent": 100,
+            "hz": 240
+        },
     ]
 }
