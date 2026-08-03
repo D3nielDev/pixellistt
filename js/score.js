@@ -1,7 +1,7 @@
 /**
  * Numbers of decimal digits to round to
  */
-const scale = 3;
+const scale = 2;
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
@@ -14,34 +14,40 @@ export function score(rank, percent, minPercent) {
     if (rank > 150) {
         return 0;
     }
+
     if (rank > 75 && percent < 100) {
         return 0;
     }
 
-    // Old formula
-    /*
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    */
-    // New formula
-    let score = (-24.9975*Math.pow(rank-1, 0.4) + 200) *
+    let baseScore;
+
+    if (rank <= 10) {
+        // Linear drop from 300 at #1 to 130 at #10
+        baseScore = 300 - (rank - 1) * (170 / 9);
+    } else {
+        // Gentler decay so Top 25-50 are still worth a good amount
+        baseScore = 130 * Math.pow(10 / rank, 0.40);
+    }
+
+    let score = baseScore *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
     score = Math.max(0, score);
 
-    if (percent != 100) {
-        return round(score - score / 3);
+    // Non-100% completions receive 2/3 of the score
+    if (percent !== 100) {
+        return round(score * (2 / 3));
     }
 
-    return Math.max(round(score), 0);
+    return round(score);
 }
 
 export function round(num) {
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
     } else {
-        var arr = ('' + num).split('e');
-        var sig = '';
+        const arr = ('' + num).split('e');
+        let sig = '';
         if (+arr[1] + scale > 0) {
             sig = '+';
         }
