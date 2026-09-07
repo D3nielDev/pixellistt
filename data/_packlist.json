@@ -1,12 +1,22 @@
 [
 {
-        "name": "TEST",
-        "levels": ["SLAUGHTERCAR", "SLAUGHTERCAR", "SLAUGHTERCAR"],
-        "colour": "#ff9100"
+        "name": "Kocmoc Saga",
+        "levels": ["Kocmoc EASY", "Kocmoc Leashed"],
+        "colour": "#2800ad"
     },  
 {
-        "name": "Red Haze Saga",
-        "levels": ["SLAUGHTERCAR", "SLAUGHTERCAR"],
-        "colour": "#eb4034"
-    }
+        "name": "OG Pack",
+        "levels": ["Easybath", "Mediumbath","Sonic Wave","Sakupen Circles EASY"],
+        "colour": "#ffb700"
+    },
+        {
+        "name": "Slaughterhouse Trilogy",
+        "levels": ["SLAUGHTERCAR", "SLAUGHTERCAR EASY","Slaughterhouse EASY"],
+        "colour": "#a31800"
+    },
+        {
+        "name": "Peak Song Pack",
+        "levels": ["Defeated Circles EASY", "Tidal Wave Easy","Acheron EASY"],
+        "colour": "#000ba3"
+    },
 ]
