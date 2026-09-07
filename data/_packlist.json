@@ -19,4 +19,14 @@
         "levels": ["Defeated Circles EASY", "Tidal Wave Easy","Acheron EASY"],
         "colour": "#000ba3"
     },
+          {
+        "name": "Nice Gameplay Pack",
+        "levels": ["Subterminal Point", "Subsuming Vortrox","Defeated Circles EASY"],
+        "colour": "#ffffff"
+    },
+       {
+        "name": "Starter Pack",
+        "levels": ["Easybath", "Sakupen Circles EASY","Sonic Wave","Mediumbath","Acheron EASY"],
+        "colour": "#9cff8c"
+    }      
 ]
