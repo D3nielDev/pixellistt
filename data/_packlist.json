@@ -1,0 +1,12 @@
+[
+{
+        "name": "TEST",
+        "levels": ["SLAUGHTERCAR", "SLAUGHTERCAR", "SLAUGHTERCAR"],
+        "colour": "#ff9100"
+    },  
+{
+        "name": "Red Haze Saga",
+        "levels": ["SLAUGHTERCAR", "SLAUGHTERCAR"],
+        "colour": "#eb4034"
+    }
+]
