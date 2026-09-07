@@ -16,12 +16,12 @@
     },
         {
         "name": "Peak Song Pack",
-        "levels": ["Defeated Circles EASY", "Tidal Wave Easy","Acheron EASY"],
+        "levels": ["DefeatedCirclesEASY", "Tidal Wave Easy","Acheron EASY"],
         "colour": "#000ba3"
     },
           {
         "name": "Nice Gameplay Pack",
-        "levels": ["Subterminal Point", "Subsuming Vortrox","Defeated Circles EASY"],
+        "levels": ["Subterminal Point", "Subsuming Vortrox","DefeatedCirclesEASY"],
         "colour": "#ffffff"
     },
        {
