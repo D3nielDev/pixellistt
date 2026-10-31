@@ -28,5 +28,10 @@
         "name": "Starter Pack",
         "levels": ["Easybath", "Sakupen Circles EASY","Sonic Wave","Mediumbath","Acheron EASY"],
         "colour": "#9cff8c"
+    },
+        {
+        "name": "XL",
+        "levels": ["Runic", "Tidal Wave EASY"],
+        "colour": "#9403fc"
     }      
 ]
